@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sexo"/>
+
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estado_civil"/>
+
+    <RadioGroup
+        android:id="@+id/estadoCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioSolteiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solteiro"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioCasado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casado"/>
+
+        <RadioButton
+            android:id="@+id/radioDivorciado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divorciado"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atividade_praticada"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/lingado"
+        android:textOff="@string/deslingado" />
+
+    <CheckBox
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkCaminhada"
+        android:text="@string/caminhada"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkCorrida"
+        android:text="@string/corrida"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkNatacao"
+        android:text="@string/nata_o"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:max="100"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btTestarComponenteOnClick"
+        tools:ignore="OnClick"
+        android:src="@mipmap/play_round"
+        android:contentDescription="@string/testar_componente"/>
+
+</LinearLayout>

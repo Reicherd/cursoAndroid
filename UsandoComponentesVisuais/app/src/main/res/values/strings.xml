@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UsandoComponentesVisuais</string>
+    <string name="testar_componente">Testar Componente</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Sexo:</string>
+    <string name="estado_civil">Estado Civil:</string>
+    <string name="solteiro">Solteiro</string>
+    <string name="casado">Casado</string>
+    <string name="divorciado">Divorciado</string>
+    <string name="atividade_praticada">Atividade Praticada</string>
+    <string name="caminhada">Caminhada</string>
+    <string name="corrida">Corrida</string>
+    <string name="nata_o">Natação</string>
+    <string name="lingado">Lingado</string>
+    <string name="deslingado">Deslingado</string>
+    <string name="pegador_de_data">Pegador de Data:</string>
+</resources>

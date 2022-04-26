@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="peso">Weight:</string>
+    <string name="imc">BMI:</string>
+    <string name="altura">Height:</string>
+    <string name="calcular">Calculate</string>
+    <string name="limpar">Clear</string>
+    <string name="pesoHint">Pounds</string>
+    <string name="alturaHint">Inches</string>
+    <string name="campoPesoNaoInformado">Weight field must be filled!</string>
+    <string name="campoAlturaNaoInformado">Height field must be filled!</string>
+    <string name="zero">0.0</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">citySelector</string>
+    <string name="cidade_selecionada">Cidade Selecionada</string>
+</resources>

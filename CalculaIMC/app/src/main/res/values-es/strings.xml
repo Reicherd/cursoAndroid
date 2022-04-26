@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="peso">Peso:</string>
+    <string name="imc">IMC:</string>
+    <string name="altura">Altura:</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpio</string>
+    <string name="pesoHint">Quilogramas</string>
+    <string name="alturaHint">metros</string>
+    <string name="campoPesoNaoInformado">ウェイトフィールドが通知されない</string>
+    <string name="campoAlturaNaoInformado">Campo de Altura no informado!</string>
+    <string name="zero">0.0</string>
+</resources>

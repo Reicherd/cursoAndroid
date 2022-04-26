@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MarcadorTruco</string>
+    <string name="jogador_1">Jogador 1</string>
+    <string name="jogador_2">Jogador 2</string>
+    <string name="hist_de_jogadas">Hist. de Jogadas</string>
+    <string name="zerar_historico">Zerar Histórico</string>
+    <string name="plus_one">+1</string>
+    <string name="plus_three">+3</string>
+    <string name="plus_six">+6</string>
+    <string name="plus_nine">+9</string>
+    <string name="plus_twelve">+12</string>
+    <string name="dois_pontos">:\u0020</string>
+    <string name="zero">0</string>
+</resources>
