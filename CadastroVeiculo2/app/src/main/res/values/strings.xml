@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CadastroVeiculo</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
+    <string name="modelo">Modelo:</string>
+    <string name="marca">Marca:</string>
+    <string name="digite_a_placa">Digite a placa</string>
+    <string name="placa">Placa:</string>
+</resources>
