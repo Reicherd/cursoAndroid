@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FotoGaleria</string>
+    <string name="tirar_foto">Tirar Foto</string>
+    <string name="foto_tirada">Foto Tirada</string>
+    <string name="foto">Foto</string>
+    <string name="x">X</string>
+    <string name="excluir">Excluir</string>
+</resources>
